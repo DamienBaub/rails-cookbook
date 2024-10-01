@@ -1,0 +1,72 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 100%;
+  flex-direction: column;
+  margin: 5px;
+  position: relative;
+}
+
+.card-category a {
+  text-decoration: none;
+}
+
+.card-category a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.delete-button-for-card {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.card-container {
+  display: flex;
+}
+
+// Card recipes
+
+.card-recipe {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 5px;
+}
+
+.card-recipe > img {
+  height: 200px;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.card-recipe h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-recipe p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-recipe .card-recipe-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

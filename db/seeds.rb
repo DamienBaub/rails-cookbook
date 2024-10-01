@@ -7,7 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-Recipe.destroy_all
+Recipe.destory_all
 
 Recipe.create(name: "chicken curry", description: "a delicious chicken curry!", rating: 8.8)
 Recipe.create(name: "spaghetti carbonara", description: "an Italian classic", rating: 9.2)
