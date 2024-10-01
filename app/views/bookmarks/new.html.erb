@@ -1,4 +1,4 @@
-<div class="container title-center">
+<div class="container">
 <h1>Which recipe would you like to add to your <%= @category.name %> list?</h1>
 <%= simple_form_for [@category, @bookmark] do |f| %>
   <%= f.association :recipe %>
