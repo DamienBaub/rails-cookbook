@@ -1,24 +1,7 @@
-# README
+# Cookbook rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Add recipes, Create categories and bookmark recipes.
 
-Things you may want to cover:
+![image](https://github.com/user-attachments/assets/78eab758-c24f-40e1-835b-0604d087ba57)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://github.com/user-attachments/assets/d03039fb-a6d7-4e27-b3e3-81fbe2671a82)
