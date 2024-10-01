@@ -1,8 +1,8 @@
-<h1>Add a new category to your cookbook</h1>
+<div class="container">
+  <h1>Add a new category to your cookbook</h1>
 
-<%= simple_form_for(@category) do |f| %>
-  <%= f.input :name %>
-  <%= f.submit %>
-<% end %>
-
-<%= link_to 'back', categories_path %>
+  <%= simple_form_for(@category) do |f| %>
+    <%= f.input :name %>
+    <%= f.submit "Add category", class: "btn btn-primary btn-font-white" %>
+  <% end %>
+</div>

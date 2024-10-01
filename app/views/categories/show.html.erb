@@ -21,11 +21,7 @@
         <h3>"<%= bookmark.recipe.comment %>"</h3>
         <h3><%= bookmark.recipe.rating %></h3>
       </div>
-      <%= link_to "❌", bookmark_path(bookmark), data: { turbo_method: :delete, turbo_confirm: "Are you sure?", class: "delete-button-for-card" } %>
+      <%= link_to "", bookmark_path(bookmark), data: { turbo_method: :delete, turbo_confirm: "Are you sure?", class: "delete-button-for-card fa-solid fa-x" } %>
     </div>
   <% end %>
 </div>
-
-<%# back to the index page %>
-<%# link to add a new recipe (bookmark!) %>
-<%# add a new category %>

@@ -13,7 +13,7 @@
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path "banner2.jpg"%>);">
           <h3><%= link_to category.name.capitalize, category_path(category) %></h3>
           <p><%= category.recipes.length %> recipes</p>
-          <%= link_to "❌", category_path(category), data: { turbo_method: :delete, turbo_confirm: "Are you sure?"}, class: "delete-button-for-card" %>
+          <%= link_to "", category_path(category), data: { turbo_method: :delete, turbo_confirm: "Are you sure?"}, class: "delete-button-for-card fa-solid fa-x" %>
         </div>
       <% end %>
   <div>
