@@ -30,6 +30,11 @@
   position: absolute;
   top: 5px;
   right: 10px;
+  text-decoration: none;
+  color: #DB7D01;
+}
+.delete-button-for-card:hover {
+  color: white;
 }
 
 .card-container {
@@ -43,6 +48,7 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 5px;
+  position: relative;
 }
 
 .card-recipe > img {
