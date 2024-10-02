@@ -18,7 +18,7 @@
         <p><%= bookmark.recipe.description %></p>
       </div>
       <div class="card-recipe-infos">
-        <h3>"<%= bookmark.recipe.comment %>"</h3>
+        <h3>"<%= bookmark.comment %>"</h3>
         <h3><%= bookmark.recipe.rating %></h3>
       </div>
       <%= link_to "", bookmark_path(bookmark), data: { turbo_method: :delete, turbo_confirm: "Are you sure?", class: "delete-button-for-card fa-solid fa-x" } %>
