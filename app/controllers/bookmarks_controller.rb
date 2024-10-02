@@ -21,6 +21,7 @@ class BookmarksController < ApplicationController
     redirect_to category_path(@bookmark.category), status: :see_other
   end
 
+  # test
   private
 
   def bookmark_params
